@@ -5,19 +5,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
+    <style>
+        /* Estilos generales del cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif;
+            /* Define la familia de fuentes para el texto */
+            background-color: #f4f4f9;
+            /* Establece el color de fondo del cuerpo */
+            color: #333;
+            /* Establece el color del texto */
+            margin: 0;
+            /* Elimina los márgenes predeterminados del cuerpo */
+            padding: 0;
+            /* Elimina el relleno predeterminado del cuerpo */
+            display: flex;
+            /* Utiliza el modelo de caja flexible para el cuerpo */
+            flex-direction: column;
+            /* Organiza los elementos hijos en una columna */
+            align-items: center;
+            /* Centra los elementos hijos horizontalmente */
+            justify-content: center;
+            /* Centra los elementos hijos verticalmente */
+            height: 100vh;
+            /* Establece la altura del cuerpo al 100% del viewport */
+        }
+
+        /* Estilos para la lista desordenada (ul) */
+        ul {
+            list-style-type: none;
+            /* Elimina los puntos de la lista */
+            padding: 0;
+            /* Elimina el relleno interno */
+            width: 300px;
+            /* Establece el ancho de la lista */
+            margin: 20px 0;
+            /* Establece el margen superior e inferior de 20px */
+            background-color: #fff;
+            /* Establece el color de fondo de la lista */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* Añade una sombra a la caja */
+            border-radius: 8px;
+            /* Establece el radio de las esquinas de la caja */
+        }
+
+        /* Estilos para los elementos de la lista (li) */
+        li {
+            padding: 10px;
+            /* Añade un relleno interno de 10px */
+            border-bottom: 1px solid #ddd;
+            /* Añade un borde inferior a cada elemento */
+        }
+
+        /* Estilos para el último elemento de la lista (li) */
+        li:last-child {
+            border-bottom: none;
+            /* Elimina el borde inferior del último elemento */
+        }
+
+        /* Estilos para el formulario */
+        form {
+            background-color: #fff;
+            /* Establece el color de fondo del formulario */
+            padding: 20px;
+            /* Añade un relleno interno de 20px */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* Añade una sombra a la caja */
+            border-radius: 8px;
+            /* Establece el radio de las esquinas del formulario */
+            width: 300px;
+            /* Establece el ancho del formulario */
+            margin-bottom: 20px;
+            /* Establece un margen inferior de 20px */
+        }
+
+        /* Estilos para los div dentro del formulario */
+        form div {
+            margin-bottom: 15px;
+            /* Establece un margen inferior de 15px para los div */
+        }
+
+        /* Estilos para las etiquetas del formulario */
+        label {
+            display: block;
+            /* Muestra la etiqueta como un bloque */
+            margin-bottom: 5px;
+            /* Establece un margen inferior de 5px */
+            font-weight: bold;
+            /* Establece el texto en negrita */
+        }
+
+        /* Estilos para los campos de entrada de texto y email */
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            /* Establece el ancho del campo al 100% del contenedor */
+            padding: 8px;
+            /* Añade un relleno interno de 8px */
+            box-sizing: border-box;
+            /* Incluye el padding y el borde en el tamaño total */
+            border: 1px solid #ddd;
+            /* Añade un borde de 1px sólido */
+            border-radius: 4px;
+            /* Establece el radio de las esquinas de los campos */
+        }
+
+        /* Estilos para el botón de envío */
+        input[type="submit"] {
+            background-color: #4CAF50;
+            /* Establece el color de fondo del botón */
+            color: white;
+            /* Establece el color del texto del botón */
+            padding: 10px 15px;
+            /* Añade un relleno interno al botón */
+            border: none;
+            /* Elimina el borde del botón */
+            border-radius: 4px;
+            /* Establece el radio de las esquinas del botón */
+            cursor: pointer;
+            /* Cambia el cursor a una mano al pasar sobre el botón */
+            width: 100%;
+            /* Establece el ancho del botón al 100% del contenedor */
+            font-size: 16px;
+            /* Establece el tamaño de la fuente del botón */
+        }
+
+        /* Estilos para el botón de envío al pasar el cursor por encima */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+            /* Cambia el color de fondo cuando el cursor está sobre el botón */
+        }
+
+        /* Estilos para mensajes de error */
+        .error {
+            color: red;
+            /* Establece el color del texto del mensaje de error en rojo */
+            font-size: 14px;
+            /* Establece el tamaño de la fuente del mensaje de error */
+        }
+    </style>
+
 </head>
-<h1>Mira en la consola con F12</h1>
+<!-- <h1>Mira en la consola con F12</h1> -->
 
 <body>
 
-    <p>Párrafo 1</p>
+    <!-- <p>Párrafo 1</p>
     <p class="red">Párrafo 2</p>
     <p class="red">Párrafo 3</p>
     <p class="blue" name="chanchito">Párrafo 4</p>
     <div id="cuerpo" name="body">Hola mundo</div>
-    <hr>
+    <hr> -->
+
+    <!-- <form >
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name">
+    </form> -->
+
     <!-- Importar archivo JavaScript  -->
-    <script src="15-promesas/10-cancel.js"></script>
+    <script src="16-proyecto/index.js"></script>
 </body>
 
 </html>
