@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Sans+Thai:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/png-clipart-stopwatch-computer-icons-timer-others-blue-logo.png" sizes="32x32"
+    type="image/png">
+  <title>Cronometro</title>
+</head>
+
+<body>
+
+  <div>
+    <main class="contenedor-principal">
+      <div class="contenedor-interno">
+        <div id="cronometro">00:00:00</div>
+        <div class="contenedor-botones">
+          <button id="boton-inicio-pausa" class="boton iniciar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="53" fill="currentColor" class="bi bi-skip-start-btn-fill" viewBox="0 0 16 16">
+              <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m9.71-6.907L7 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407v-5a.5.5 0 0 0-.79-.407"/>
+            </svg>
+          </button>
+          <button id="boton-reiniciar" class="boton pausar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="53" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2z"/>
+              <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
